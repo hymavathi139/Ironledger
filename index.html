@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IronLedger Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">IRONLEDGER</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Programs</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero" id="home">
+            <h1>Transform Your Body</h1>
+            <p>Strength • Fitness • Discipline</p>
+            <a href="#" class="btn">Join Now</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About IronLedger</h2>
+            <p>
+                IronLedger Gym is dedicated to helping members achieve their
+                fitness goals through professional training, modern equipment,
+                and personalized workout plans.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Programs</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Weight Training</h3>
+                <p>Build strength and muscle with expert guidance.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cardio Fitness</h3>
+                <p>Improve endurance and cardiovascular health.</p>
+            </div>
+
+            <div class="card">
+                <h3>Personal Training</h3>
+                <p>Customized fitness plans for faster results.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gym Gallery</h2>
+
+        <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600" alt="">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600" alt="">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600" alt="">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600" alt="">
+        </div>
+    </section>
+
+    <section class="membership">
+        <h2>Membership Plans</h2>
+
+        <div class="plans">
+            <div class="plan">
+                <h3>Basic</h3>
+                <h1>₹999</h1>
+                <p>Monthly Access</p>
+            </div>
+
+            <div class="plan">
+                <h3>Premium</h3>
+                <h1>₹1999</h1>
+                <p>Trainer Support</p>
+            </div>
+
+            <div class="plan">
+                <h3>Elite</h3>
+                <h1>₹2999</h1>
+                <p>Personal Coach</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 IronLedger Gym & Fitness Club</p>
+    </footer>
+
+</body>
+</html>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    background:
+    linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600");
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+}
+
+.logo{
+    font-size:32px;
+    color:#ff4500;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    ma…

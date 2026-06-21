@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    background:
+    linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600");
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+}
+
+.logo{
+    font-size:32px;
+    color:#ff4500;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    margin-top:180px;
+}
+
+.hero h1{
+    font-size:70px;
+}
+
+.hero p{
+    font-size:25px;
+    margin:20px 0;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff4500;
+    color:white;
+    padding:12px 30px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.about,
+.services,
+.gallery,
+.membership,
+.contact{
+    padding:80px 10%;
+    text-align:center;
+}
