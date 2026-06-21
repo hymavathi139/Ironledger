@@ -80,6 +80,4 @@ The objective of IronLedger is to create a professional and user-friendly gym we
 
 IronLedger is a simple yet effective fitness website developed using HTML and CSS. It demonstrates web design skills, responsive layouts, and modern UI principles while providing a platform for promoting gym and fitness services.
 
-**Short Viva Answer:**
 
-> "IronLedger is a gym and fitness website developed using HTML and CSS. It provides information about gym programs, trainers, membership plans, and contact details. The website is designed to attract new members and promote fitness services through a modern and responsive user interface." 💪🏋️‍♂️
