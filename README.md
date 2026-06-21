@@ -1,5 +1,5 @@
 Sure bro 😎
-[Live link](https://ironledger.bytexl.live/v)
+[Live link](https://ironledger.bytexl.live/)
 # IronLedger Gym Website - Project Overview
 
 **Project Name:** IronLedger
